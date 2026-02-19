@@ -2,6 +2,7 @@ import MinDoorAbout from "../page/minDoorAbout"
 import MinDoorHome from "../page/minDoorHome"
 import MinDoorContact from "../page/minDoorContact"
 import MinDoorService from "../page/minDoorService"
+import MinDoorBookASession from "../page/minDoorBookSession"
 
 export const RoutesList1 = [
     {
@@ -22,5 +23,10 @@ export const RoutesList1 = [
     {
         path: '/contact',
         element: <MinDoorContact />
+    },
+
+    {
+        path: '/book-a-session',
+        element: <MinDoorBookASession />
     }
 ]
