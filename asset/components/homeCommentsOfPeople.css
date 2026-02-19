@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Share+Tech&display=swap');
+
+.commentsOfPeop{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.blockGlovMain{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Noto Serif;
+    font-size: 3em;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 20px;    
+}
+
+.aika{
+    font-size: 1.05em;
+    text-align: start;
+}
+
+.chras{
+    display: flex;
+    gap: 30px;
+}
+
+.FotossotoF{
+    display: flex;
+    min-height: 100%;
+    width: 390px;
+    border-radius: 12px;
+    animation: fromInvisible 1.8s ease;
+}
+
+.blockGlovSecond{
+    color: rgb(255, 123, 0);
+}
+
+.lessTextuk{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(109, 86, 68);
+}
+
+.comentarik{
+    background-color: #F5F1EA;
+    padding: 25px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 510px;
+}
+
+.professorAndBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comt{
+    display: flex;
+    font-size: 1.26em;
+    font-weight: 500;
+    animation: fromInvisible 1.8s ease;
+}
+
+.thisIs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    animation: fromInvisible 1.8s ease;
+}
+
+.name{
+    font-size: 1.24em;
+    font-weight: 500;
+}
+
+.prof{
+    font-size: 1.05em;
+    font-weight: 450;
+    color: rgb(112, 112, 112);
+} 
+
+.blockGlov{
+    color: rgb(255, 123, 0);
+}
+
+.aksa{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.prevBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid rgb(112, 112, 112, 0.3);
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+}
+
+.nextBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid rgb(112, 112, 112, 0.3);
+    transition: 4s ease;
+    cursor: pointer;
+}
+
+@keyframes fromInvisible {
+    from {
+        opacity: 0.4;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.backend{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.letsGo, .commentsOfPeop{
+  animation: fromDown 0.6s ease-in-out forwards ;
+}
+
+@keyframes fromDown {
+    from {
+        transform: translateY(100px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 390px) {
+    .commentsOfPeop{
+    flex-direction: column;   
+    }
+
+    .lessTextuk{
+    margin-bottom: 30px;
+    }
+
+    .chras{
+        flex-direction: column;
+    }
+
+    .backend{
+        border-radius: 20px;
+    }
+
+    .blockGlovMain{
+        flex-direction: row;
+        font-size: 26px;
+        gap: 7px;
+        margin-bottom: 0px; 
+    }
+
+    .comentarik{
+        width: 320px;
+    }
+
+    .comt{
+        text-align: start;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .FotossotoF{
+        width: 320px;
+    }
+
+    .aika{
+        font-size: 14px;
+        color: rgb(112, 112, 112);
+    }
+
+    .prevBtn{
+        height: 40px;
+        width: 40px;
+    }
+
+    .nextBtn{
+        height: 40px;
+        width: 40px;
+    }
+
+    .name{
+        font-size: 16px;
+    }
+
+    .prof{
+        font-size: 15px;
+    }
+}

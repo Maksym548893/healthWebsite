@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Share+Tech&display=swap');
+
+.healingForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(141, 105, 89);
+    height: 550px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    width: 1330px;
+}
+
+.firstCircle{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    width: 1000px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+
+.secondCircle{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    width: 850px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+
+.thirdCircle{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 700px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+
+.mainClicku{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.higheest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.mainHere{
+    display: flex;
+    font-family: Noto Serif;
+    font-weight: 400;
+}
+
+.underHere{
+    display: flex;
+    font-family: Noto Serif;
+    font-family: 500;
+    color: rgba(255, 255, 255, 0.7);
+    width: 480px;
+}
+
+.lowesst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkHere{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+    background-color: white;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: 0.6 ease-in-out;
+}
+
+.linkHere:hover{
+    color: black;
+    background-color: rgba(235, 231, 228, 0.9);
+}
+
+.arrowHere{
+    height: 18px;
+}
+
+.MinDoorFirstPer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: infinityRolls 20s linear infinite;
+}
+
+.MinDoorSecondPer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: infinityRolls 20s linear 5s infinite;
+}
+
+.MinDoorThirdPer{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: infinityRolls 20s linear 10s infinite;
+}
+
+.MinDoorFourthPer{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: infinityRolls 20s linear 15s infinite;
+}
+
+@keyframes infinityRolls {
+    0%{
+        transform: rotate(0deg)translateY(350px)rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)translateY(350px)rotate(-360deg);
+    }
+}
+
+.MinDoorFifthPer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    animation: rollikBollik 24s linear infinite;
+}
+
+.MinDoorSixthPer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    animation: rollikBollik 24s linear 6s infinite;
+}
+
+.MinDoorSeventhPer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    animation: rollikBollik 24s linear 12s infinite;
+}
+
+.MinDoorEighthPer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    animation: rollikBollik 24s linear 18s infinite;
+}
+
+@keyframes rollikBollik {
+    0%{
+        transform: rotate(0deg)translateY(420px)rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)translateY(430px)rotate(-360deg);
+    }
+}
+
+.MinDoorNinethPer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    animation: rollenCircle 28s linear infinite;
+}
+
+.MinDoorTenthPer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    animation: rollenCircle 28s linear 7s infinite;
+}
+
+.MinDoorEleventhPer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    animation: rollenCircle 28s linear 14s infinite;
+}
+
+.MinDoorTwelvethPer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    animation: rollenCircle 28s linear 21s infinite;
+}
+
+@keyframes rollenCircle {
+    0%{
+        transform: rotate(0deg)translateY(500px)rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg)translateY(500px)rotate(-360deg);
+    }
+
+}

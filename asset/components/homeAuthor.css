@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Share+Tech&display=swap');
+
+.ourBlick{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F1EA;
+    color: black;
+    border-radius: 20px;
+    padding: 50px;
+    height: 98%;
+    margin-bottom: 130px;
+}
+
+.thera{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.personExperts{
+    display: flex;
+    flex-direction: column;
+}
+
+.ourExpirt{
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.experImg{
+    height: 290px;
+    width: 290px;
+}
+
+.thetapist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transform: translateY(60px);
+}
+
+.expertS{
+    font-family: Noto Serif;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+.eXperts{
+    color: rgb(255, 123, 0);
+}
+
+.experImg{
+    border-radius: 20px;
+}
+
+.blockBereich{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.personExperts{
+    gap: 10px;
+}
+
+.alok{
+    color: rgb(109, 86, 68);
+    width: 500px;
+    text-align: center;
+}
+
+.nameExp{
+    font-size: 1.4rem;
+    font-family: SN Pro;
+    font-weight: 500;
+}
+
+.fieldActOfPers{
+    color: rgb(109, 86, 68);
+    font-weight: 500;
+}
+
+.enka{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.dopomoga{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.ourIMG{
+    height: 30px;
+    width: 30px;
+}
+
+.paral{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.golovText{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.negolovText{
+    color: rgb(109, 86, 68);
+    font-size: 0.9rem;
+    width: 220px;
+    flex-wrap: wrap;
+    text-align: start;
+}
+
+.ourIMG, .golovText, .negolovText, .thetapist, .ourExpirt{
+    animation: fromDown 0.6s ease-in-out forwards ;
+}
+
+@keyframes fromDown {
+    from {
+        transform: translateY(100px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 390px) {
+    .enka{
+        grid-template-columns: 1fr;
+        gap: 30px;
+        transform: translateY(-450px) translateX(-20px);
+    }
+
+
+    .ourExpirt{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ourBlick{
+        height: 2000px;
+        width: 320px;
+    }
+
+    .alok{
+        width: 280px;
+    }
+
+    .thera{
+        transform: translateY(-150px);
+    }
+
+    .personExperts{
+        transform: translateY(-100px);
+    }
+
+    .expertS{
+        display: flex;
+        font-size: 25px;
+        gap: 7px;
+        justify-content: center;
+    }
+
+    .hahahaha{
+        width: 320px;
+    }
+}

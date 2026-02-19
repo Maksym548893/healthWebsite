@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap');
+
+.HomeQuestions{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+.queAndFoto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 50px;
+}
+
+.imgQu{
+    height: 100%;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.que{
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    width: 100%;
+}
+
+
+.frequentlyQuestions{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    animation: fromDown 0.6s ease-in-out forwards ;
+}
+ 
+
+@keyframes fromDown {
+    from {
+        transform: translateY(100px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+.mainQue{
+    font-family: Noto Serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lessQue{
+    display: flex;
+    color: rgb(112, 112, 112);
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.princ{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    height: max-content;
+}
+
+.mainQuestion{
+    color: rgb(109, 86, 68, 0.7);
+    font-weight: 500;
+
+}
+
+.MinDoorQueArrow{
+    fill: rgb(109, 86, 68);
+}
+
+hr{
+    border: none;
+    height: 0.5px;
+    background-color: rgb(109, 86, 68, 0.2);
+}
+
+.part{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.claassss{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mainQuestion{
+    font-size: 20px;
+}
+
+
+.hr{
+    width: 620px;
+}
+
+
+.height{
+    transition: 0.6s ease-in-out;
+}
+
+.ans{
+    max-height: 0;
+    opacity: 0;
+    align-items: flex-start;
+    transition: 0.5s ease-in-out;
+    color: rgb(109, 86, 68);
+}
+
+.ans.active{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    opacity: 1;
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+
+.kippop{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mainQuestion.focused{
+    transition: 0.5s ease-in-out;
+    color: #000;
+}
+
+.claassss{
+
+    animation: fromDow1n 0.6s ease-in-out forwards ;
+}
+
+@keyframes fromDow1n {
+    from {
+        transform: translateX(-100px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.kiFoto{
+
+    animation: fromDow2n 0.6s ease-in-out forwards ;
+}
+
+@keyframes fromDow2n {
+    from {
+        transform: translateX(100px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+@media (max-width: 390px) {
+    .HomeQuestions{
+        width: 320px;
+    }
+
+    .mainQue{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .lessQue{
+        display: flex;
+        font-size: 14px;
+        text-align: center;
+        justify-content: center;
+        width: 320px;
+        color: rgb(112, 112, 112);
+    }
+
+    .queAndFoto{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .imgQu{
+        width: 320px;
+    }
+
+    .claassss{
+        width: 320px;
+    }
+
+    hr{
+        width: 320px;
+    }
+
+    .hr{
+        width: 320px;
+    }
+
+    .part{
+        width: 320px;
+        justify-content: center;
+        gap: 80px;
+    }
+}

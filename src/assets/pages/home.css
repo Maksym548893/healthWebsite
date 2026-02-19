@@ -1,0 +1,995 @@
+
+
+header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1a1a1a;
+    padding: 3% 3% 10% 13%;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.hero{
+    background-image: url("https://www.thecityofldn.com/wp-content/uploads/2023/05/jamiesmithphoto-2162-Tower-Bridge-with-City-behind-reduced-2000x1334.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+
+.flyHigh{
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.high{
+    font-weight: 600;
+}
+
+.flyHighMenu{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.flyHighMenuEl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1a1a1a;
+    font-size: 1.1em;
+    transition: 0.6s ease-in-out;
+}
+
+.flyHighMenuEl:hover{
+    color: rgb(44, 41, 41)
+}
+
+.registerButton{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.registerBtn{
+    font-size: 1.1em;
+    color: #1a1a1a;
+    transition: 0.4s ;
+}
+
+.registerBtn:hover{
+    color: rgb(44, 41, 41);
+    transform: translateY(10px);
+}
+
+.signInBtn{
+    font-size: 1.1em;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+.signInBtn:hover{
+    color: rgb(255, 255, 255);
+    transform: translateY(10px);
+}
+
+.butonku{
+    background-color: transparent;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pageLanguage{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    background-color: white;
+    padding: 10px 10px;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.language{
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.6s ease-in-out;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 11% 13%;
+    color: #1a1a1a;
+}
+
+.buddyText{
+    text-align: left;
+    font-weight: 400;
+    font-size: 4em;
+    margin-bottom: 1.8em;
+}
+
+.bolderFlying{
+    font-weight: 600;
+}
+
+.explorCity{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.2em;
+    color: #1a1a1a;
+}
+
+.explorCity:hover{
+    color: rgb(44, 41, 41);
+}
+
+.littleBottom{
+    height: 20vh;
+}
+
+.threePunkt{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3% 3% 13% 10%;
+    top: 64.5%;
+}
+
+
+.thisIs1{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 10px;
+    border: none;
+    border-radius: 12px 0 0 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 1.05em;
+    font-weight: 600;
+    transition: 0.8s ease-in-out;
+}
+
+.thisIs1:hover{
+    background-color: white;
+    color: black;
+}
+
+.thisIs1:hover .planer{
+    fill: black;
+}
+
+
+.thisIs2{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 1.05em;
+    font-weight: 600;
+    transition: 0.8s ease-in-out;
+}
+
+.thisIs2:hover{
+    background-color: white;
+    color: black;
+}
+
+.thisIs2:hover .planer{
+    fill: black;
+}
+
+.thisIs3{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 10px;
+    border-radius: 0 12px 0 0;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 1.05em;
+    font-weight: 600;
+    transition: 0.8s ease-in-out;
+}
+
+.thisIs3:hover{
+    background-color: white;
+    color: black;
+}
+
+.thisIs3:hover .planer{
+    fill: black;
+}
+
+.planer{
+    fill: white ;
+}
+
+.longSearchBar{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 300px;
+    position: relative;
+    margin: 0 10%;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    border-radius: 0 12px 12px 12px;
+    padding: 45px 55px;
+    box-sizing: border-box;
+}
+
+.secondPart{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.firstPart{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+
+.roundTrip{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background-color: transparent;
+    color: #1a1a1a;
+    margin-bottom: 30px;
+    font-size: 1.05em;
+    font-weight: 600;
+}
+
+.formFrom{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+
+.formFrom1{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 550px;
+    display: flex;
+    padding: 24px 10px 10px 24px;
+    border-radius: 12px;
+    justify-content: space-around;
+}
+
+.toTo{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.behancE{
+    font-size: 1.8em;
+}
+
+.twoIdenticBlocks{
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.departureDate{
+    display: flex;
+    align-items: center;
+}
+
+.prevAndNext{
+    display: flex;
+}
+
+.prev{
+    background-color: transparent;
+    border: none;
+    color: #1a1a1a;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.next{
+    background-color: transparent;
+    border: none;
+    color: #1a1a1a;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.departuRe{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.departureDate{
+    font-size: 1.8em;
+}
+
+.language:hover{
+    background-color: #aca8a8;
+}
+
+
+.dropDown1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    z-index: 1000;
+    background-color: #ffffff;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    padding:10px 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.dropDown2{
+    z-index: 1000;
+    background-color: #ffffff;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    padding:10px 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.dropDown3{
+    position: absolute;
+    z-index: 1000;
+    background-color: #ffffff;
+    list-style: none;   
+    cursor: pointer;
+    top: 40px;
+    left: 365px;
+    padding:10px 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-weight: 600 ;
+}
+
+.roundTrip{
+    display: flex;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.clasClass{
+    margin-bottom: 5px;
+}
+
+.pair-of-buttons{
+    display: flex;
+    gap: 18px;
+}
+
+.prevAndNext1{
+    display: flex;
+}
+
+.prevAndNext2{
+    display: flex;
+}
+
+.calender{
+    display: flex;
+    gap: 6px;
+}
+
+.calender1{
+    display: flex;
+    gap: 6px;
+}
+
+.dropDown55{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: absolute;
+    top: 110px;
+    right: 30.6%;
+    align-items: flex-start;
+    font-size: 0.7em;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.dropDown66{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 110px;
+    right: 24.3%;
+    align-items: flex-start;
+    font-size: 0.7em;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.dropDown66::-webkit-scrollbar{
+    display: none;
+}
+
+.dropDown77{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 110px;
+    right: 28%;
+    align-items: center;
+    font-size: 0.7em;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    max-height: 300px;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.dropDown77::-webkit-scrollbar{
+    display: none;
+}
+
+.dropDown88{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 110px;
+    right: 13%;
+    align-items: flex-start;
+    font-size: 0.7em;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+}
+
+.dropDown99{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 110px;
+    right: 10.2%;
+    align-items: center;
+    font-size: 0.7em;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    max-height: 300px;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.dropDown99::-webkit-scrollbar{
+    display: none;
+}
+
+.dropDown100{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 110px;
+    right: 6.5%;
+    align-items: flex-start;
+    font-size: 0.7em;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.dropDown100::-webkit-scrollbar{
+    display: none;
+}
+
+.dropDownList55{
+    padding: 4px 15px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.dropDownList55:hover{
+    background-color: rgb(151, 151, 151);
+}
+
+.dropDownList66{
+    padding: 4px 15px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.dropDownList66:hover{
+    background-color: rgb(151, 151, 151);
+}
+
+.dropDownList77{
+    padding: 4px 15px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.dropDownList77:hover{
+    background-color: rgb(151, 151, 151);
+}
+
+.dropDownList88{
+    padding: 4px 15px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.dropDownList88:hover{
+    background-color: rgb(151, 151, 151);
+}
+
+.dropDownList99{
+    padding: 4px 15px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.dropDownList99:hover{
+    background-color: rgb(151, 151, 151);
+}
+
+.dropDownList100{
+    padding: 4px 15px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.dropDownList100:hover{
+    background-color: rgb(151, 151, 151);
+}
+
+.departuRe{
+    margin-bottom: 5px;
+}
+
+.searchFlights{
+    position: absolute;
+    z-index: 1000;
+    bottom: 155px;
+    right: 13%  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 350px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.searchFlights:hover{
+    color: #ffffff;
+}
+
+.littleBottom{
+    position: relative;
+}
+
+.myArrow{
+    fill: #ffffff;
+}
+
+.lastBlock{
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 13%;
+    color: #1a1a1a;
+}
+
+.popularDestination{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.lastLastBlock{
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+
+.lastLastBlock:hover{
+    transform: translateY(-20px);
+}
+
+.exploreAll{
+    font-size: 20px;
+    color: #1a1a1a;
+}
+
+.exploreAll:hover{
+    color: #1a1a1a;
+}
+
+.linieFur{
+    border: none;
+    height: 2px;
+    width: 96px;
+    background-color: #1a1a1a;
+}
+
+.hamburgerMenu{
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 16%;
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.flyHigh1{
+    color: #1a1a1a;
+    display: flex;
+    font-size: 18px;
+}
+
+.logoXCloseBtn{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.closeBtn{
+    display: flex;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+    color: rgb(44, 41, 41);
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    transition: 0.5s;
+}
+
+.closeBtn:hover{
+    box-shadow: 0 0 5px rgb(151, 151, 151);
+}
+
+.hamburgerMenuMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+.highSide{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hamburgerLogo{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.registerButtons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.registerBtn1{
+    display: flex;
+    align-items: center;
+    color: #1a1a1a;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    border-radius: 20px 10px;
+    transition: 0.4s;
+}
+
+.registerBtn1:hover{
+    color: #1a1a1a;
+    transform: translateX(-20px);
+}
+
+.signInBtn2{
+    display: flex;
+    align-items: center;
+    color: #1a1a1a;
+    background-color: rgb(211, 211, 211);
+    padding: 10px 15px;
+    border-radius: 10px 20px;
+    transition: 0.4s;
+}
+
+.signInBtn2:hover{
+    color: #1a1a1a;
+    transform: translateX(20px);
+}
+
+.hrLinie{
+    width: 240px;
+}
+
+.menuInHamburger{
+    line-height: 5em;
+}
+
+.flyHighMenuEl1{
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: flex-start;
+    color: #1a1a1a;
+    gap: 40px;
+}
+
+.flyHighMenuEl1:hover{
+    color: #1a1a1a;
+}
+
+.twentyto{
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 390px) {
+    .flyHighMenu{
+        display: none;
+    }
+
+    .buddyText{
+        font-size: 2em;
+    }
+
+    .registerBtn{
+        font-size: 1em;
+    }
+
+    .signInBtn{
+        display: flex;
+        align-items: center;
+        font-size: 1em;
+        background-color: transparent;
+        color: #1a1a1a;
+        width: 120px;
+        padding: 0;
+    }
+
+    header{
+        gap: 20px;
+    }
+
+    .flyHigh{
+        display: none;
+    }
+
+    .butonku{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .hambirgerLigo{
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .explorCity{
+        font-size: 1em;
+    }
+
+    .threePunkt{
+        position: absolute;
+        top: 29.5%;
+
+    }
+
+    .thisIs1{
+        width: 101px;
+        height: 20px;
+        font-size: 10px;
+        padding: 15px 20px;
+    }
+
+    .thisIs2{
+        width: 101px;
+        height: 20px;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    .thisIs3{
+        width: 110px;
+        height: 20px;   
+        font-size: 10px;    
+        justify-content: center; 
+        white-space: nowrap;
+        padding: 15px 20px;
+    }
+
+    .planer{
+        height: 10px;
+        width: 10px;
+    }
+
+    .BlockOurBlock{
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .firstPart{
+        position: relative;
+        gap: 0px;
+        right: 45px;
+    }
+
+
+    .longSearchBar{
+        position: relative;
+        padding-left: 55px;
+        border-top-right-radius: 0px;
+        height: 400px;
+        overflow: visible;
+        width: 310px;
+    }
+
+
+    .roundTrip{
+        white-space: nowrap;
+    }
+
+    .formFrom{
+        width: 145px;
+        height: 100px;
+        font-size: 10px;
+        white-space: nowrap;
+        padding-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    .searchFlights{
+        left: 100px;
+        font-size: 10px;
+        width: 200px;
+        height: 40px;;
+    }
+
+    .popularDestination{
+        font-size: 12px;
+    }
+
+    .exploreAll{
+        font-size: 12px;
+    }
+
+    .linieFur{
+        height: 2px;
+        width: 60px;
+    }
+
+    .secondPart{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .twentyto{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .formFrom1{
+        width: 300px;
+        padding: 5px 10px;
+    }
+
+    .dropDown3
+
+    .dropDown3{
+        transform: translateX(-130px);
+    }
+
+    .hamburgerMenu{
+        right: 0;
+        background-color: #ffffff;
+        width: 100%;
+    }
+
+    .logoXCloseBtn{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .registerButtons{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .registerBtn1{
+        padding: 10px;
+    }
+
+    .flyHighMenuEl1{
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Share+Tech&display=swap');
+
+.MAIN-NAME{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.topName{
+    font-family: Noto Serif;
+    font-weight: 400;
+}
+
+.bottomName{
+    width: 500px;
+    text-align: center;
+    color: rgb(114, 111, 111);
+}

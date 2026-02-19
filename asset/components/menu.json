@@ -1,0 +1,6 @@
+[
+    {"title": "Main-Page", "link": "/"},
+    {"title": "About-Page", "link": "/about"},
+    {"title": "Service-Page", "link": "/service"},
+    {"title": "Contact-Page", "link": "/contact"}
+]

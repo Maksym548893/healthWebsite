@@ -1,0 +1,85 @@
+.backForm{
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.myForm{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(255, 255, 255, 0.6);
+    height: 550px;
+    width: 550px;
+    border-radius: 16px;
+    gap: 40px;
+    padding: 20px;
+}
+
+.LogInInIn{
+    font-size: 60px;
+}
+
+.divFormLogIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.logInchik{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 16px;
+    border: none;   
+    padding: 10px;
+    background-color: rgba(15, 15, 15);
+    outline: none;
+}
+
+.logInchik::placeholder{
+    color: aliceblue;
+}
+
+.signUpchik{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 16px;
+    border: none;
+    padding: 10px;
+    background-color: rgba(15, 15, 15);
+    outline: none;
+}
+
+.signUpchik::placeholder{
+    color: aliceblue;
+}
+
+.submitButton{
+    width: 350px;
+    height: 45px;
+    border-radius: 16px;
+    border: none;
+    background-color: rgb(15, 15, 15);
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+}
+
+.submitButton:hover{
+    background-color: rgb(247, 247, 247);
+    color: rgb(15, 15, 15);
+    border: 2px solid rgb(15, 15, 15);
+}
+
+.luxury{
+    font-size: 16px;
+    font-weight: 500;
+}

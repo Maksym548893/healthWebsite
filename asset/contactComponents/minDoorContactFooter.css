@@ -1,0 +1,113 @@
+.contactForm{
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    width: 100%;
+}
+
+.lefteksSides{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+
+.inside{
+    display: flex;
+    align-items: flex-start;
+}
+
+.providersTXT{
+    display: flex;
+    font-size: 18px;
+    width: 400px;
+    text-align: start;
+    color: rgb(114, 111, 111);
+    font-weight: 500;
+}
+
+.socialBrands{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.logoses{
+    display: flex;
+    gap: 10px;
+}
+
+.clek{
+    display: flex;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+
+.clek:hover{
+    fill:  rgb(141, 105, 89);;
+}
+
+.righteksSides{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menuNAME{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: start;
+}
+
+.listMenu{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+
+.underNameEl{
+    display: flex;
+    font-size: 16px;
+    color: rgb(114, 111, 111);
+    font-weight: 500;
+    transition: 0.6s ease-in-out;
+}
+
+.underNameEl:hover{
+    color: rgb(255, 123, 0);
+}
+
+hr{
+    width: 100%;
+}
+
+.footerOfFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img{
+    display: flex;
+}
+
+.cp{
+    font-weight: 500;
+    color: rgb(114, 111, 111);
+}
+
+.websiteEl{
+    color: rgb(114, 111, 111);
+    transition: 0.6s ease-in-out;
+}
+
+.websiteEl:hover{
+    color: rgb(255, 123, 0);
+}

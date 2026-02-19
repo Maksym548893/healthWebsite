@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.first-trap{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.wellbeing{
+    font-size: 3em;
+    font-weight: 400;
+    font-family: Noto Serif;
+    word-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.webkik{
+    color: rgb(255, 123, 0);
+}
+
+.who-we-are{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.together{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+.secondUnderText{
+    color:rgb(117, 117, 117);
+    font-weight: 450;
+    width: 350px;
+    text-align: start;
+}
+
+.WhoWeAre{
+    display: flex;
+    align-items: center;
+    color: rgb(248, 248, 248);
+    padding: 15px 15px;
+    background-color:rgb(141, 105, 89);
+    gap: 20px;
+    border-radius: 30px;
+}
+
+.WhoWeAre:hover{
+    background-color: black;
+    transition: 0.6 ease-in-out;
+    color: rgb(248, 248, 248);
+}
+
+.whoUp{
+    fill: rgb(248, 248, 248);
+    width: 20px;
+    height: 20px;
+}
+
+.list-of-foto{
+    display: flex;
+    overflow: auto;
+}
+
+.list-of-foto::-webkit-scrollbar{
+    display: none;
+}
+
+.wrapper{
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    animation: spinik 15s infinite linear;
+    padding-right: 20px;
+}
+
+.wrapperPhoto{
+    border-radius: 16px;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.next-block{
+    margin-bottom: 100px;
+}
+
+@keyframes spinik {
+    from {transform: translate(0);}
+
+    to {transform: translate(-100%);}
+}
+
+@media (max-width: 390px) {
+    .first-trap{
+        padding: 0;
+    }
+
+    .wellbeing{
+        font-size: 25px;
+        word-spacing: 0px;
+    }
+
+    .who-we-are{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    
+    .list-of-foto{
+        margin-bottom: 300px;
+    }
+
+    .secondUnderText{
+        text-align: start;
+        color: rgb(117, 117, 117);
+    }
+}

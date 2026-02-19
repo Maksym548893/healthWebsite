@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Share+Tech&display=swap');
+
+.ContactForm{
+    display: flex;
+    color: black;
+    gap: 50px;
+    max-width: 100%;
+    padding: 5% 10%;
+    margin-bottom: 70px;
+}
+
+.leftSide{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 20px;
+}
+
+.higher{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.informatImg{
+    display: flex;
+    height: 35px;
+    background-color: rgb(141, 105, 89);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.withImg{
+    display: flex;
+    font-weight: 600;
+}
+
+.firstLi{
+    display: flex;
+    text-align: start;
+    color: rgb(114, 111, 111);
+    font-weight: 500;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.firsNum{
+    display: flex;
+    color: rgb(114, 111, 111);
+    transition: 0.5s ease-in-out;
+}
+
+.firsNum:hover{
+    color: rgb(255, 123, 0) ;
+}
+
+.secondLi{
+    gap: 5px;
+    text-align: start;
+    color: rgb(114, 111, 111);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.secondNum{
+    color: rgb(114, 111, 111);
+    transition: 0.5s ease-in-out;
+}
+
+.secondNum:hover{
+    color: rgb(255, 123, 0);
+}
+
+.block-with-information{
+    display: grid;
+    gap: 20px;
+    background-color: rgb(248, 243, 236);
+    border: 1px solid rgb(224, 217, 206);
+    padding: 20px;
+    height: 195px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.rightsidea{
+    height: 630px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: rgb(248, 243, 236);
+    border: 1px solid rgb(224, 217, 206);
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+.name-and-tel{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.email-and-reason{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nam{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.telephon{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+
+.reason{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+
+.YourDetails{
+    display: flex;
+    align-items: flex-start;
+    align-items: f;
+}
+
+.details{
+    text-align: start;
+    font-size: 30px;
+    font-family: Noto Serif;
+}
+
+.fullName{
+    display: flex;
+    padding: 0 20px;
+    color: rgb(114, 111, 111);
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(253, 252, 251);
+    border: 1px solid rgb(224, 217, 206);
+}
+
+.phoneNumber{
+    display: flex;
+    padding: 0 20px;
+    color: rgb(114, 111, 111);
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(253, 252, 251);
+    border: 1px solid rgb(224, 217, 206);
+}
+
+.emailAdress{
+    display: flex;
+    padding: 0 20px;
+    color: rgb(114, 111, 111);
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(253, 252, 251);
+    border: 1px solid rgb(224, 217, 206);
+}
+
+.reasonContact{
+    display: flex;
+    padding: 0 20px;
+    color: rgb(114, 111, 111);    
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(253, 252, 251);
+    border: 1px solid rgb(224, 217, 206);
+}
+
+.messagefor{
+    display: flex;
+    padding: 20px 20px;
+    font-size: 12px;
+    color: rgb(114, 111, 111);
+    width: 625px;
+    height: 115px;
+    border-radius: 10px;
+    background-color: rgb(253, 252, 251);
+    border: 1px solid rgb(224, 217, 206);
+}
+
+.messagefor::placeholder{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reasonContact{
+    color: rgb(114, 111, 111);
+}
+
+.contactsButton{
+    height: 45px;
+    width: 630px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(141, 105, 89);
+    cursor:pointer;
+}
+
+.fullNameLabel{
+    font-weight: 500;
+}
+
+.telephoneNumberLabel{
+    font-weight: 500;
+}
+
+.emailAdressLabel{
+    font-weight: 500;
+}
+
+.reasonContactLabel{
+    font-weight: 500;
+}
+
+.messageForLabel{
+    font-weight: 500;
+}

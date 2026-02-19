@@ -1,0 +1,95 @@
+.MinDoorContactFrequntlyAnswers{
+    display: flex;
+    align-items: center;
+    color: rgb(114, 111, 111);
+    gap: 40px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.klapik{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 600px;
+    height: 340px;
+}
+
+.firsLine{
+    display: flex;
+    padding: 0 20px;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.fotoOurTherapy{
+    display: flex;
+    height: 430px;
+    border-radius: 30px;
+}
+
+.firsLine{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.mainlessTXT{
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr;
+    transition: grid-template-rows 500ms;
+    text-align: start;
+    padding: 0 20px;
+    width: 600px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.mainlessTXT.active{
+    max-height: 40px;
+    opacity: 1;
+}
+
+hr{
+    display: flex;
+    width: 600px;
+}
+
+.urQuestions{
+    display: flex;
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+    font-weight: 500;
+}
+
+.urQuestions.active{
+    color: black
+}
+
+.leftSideHere{
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.under{
+    display: flex;
+    position: relative;
+}
+
+.over.active{
+    position: absolute;
+    background-color: red;
+    height: 65px;
+    width: 600px;
+}
+
+.over.nonactive{
+    position: absolute;
+    background-color: black;
+}
+
+.mainlessTXT.active{
+    max-height: 50px;
+}

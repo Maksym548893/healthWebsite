@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.third-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 8%;
+}
+
+.first-kolo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    width: 900px;
+    background-color: transparent;
+    border: 1px solid  rgb(109, 86, 68, 0.2);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.second-kolo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 760px;
+    width: 760px;
+    background-color: transparent;
+    border: 1px solid  rgb(109, 86, 68, 0.2);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.third-kolo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 620px;
+    width: 620px;
+    background-color: transparent;
+    border: 1px solid  rgb(109, 86, 68, 0.2);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.text-inside{
+    color: black;
+    font-family: Noto Serif;
+    font-weight: 400; 
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.anywhere{
+    color: rgb(255, 123, 0);
+}
+
+.under-inside-text{
+    color: rgb(109, 86, 68);
+    width: 450px;
+    font-weight: 500px;
+}
+
+.therapy{
+    position: absolute;
+    top: -100px;
+    left: -220px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 430px;
+    height: 240px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #F5F1EA;
+    color: black;
+    animation: fromLeftforFirst 0.8s ease-in-out;
+}
+
+@keyframes fromLeftforFirst {
+    from {transform: translate(-60px);}
+
+    to {transform: translate(0px);}
+}
+
+.mindoorQuadro{
+    height: 30px;
+    width: 30px;
+}
+
+.text-under-therapy{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.main-here{
+    display: flex;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.therapy:hover .main-here{
+    color: black;
+}
+
+.under-here{
+    display: flex;
+    text-align: start;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+
+.therapy2{
+    position: absolute;
+    top: -140px;
+    right: -260px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 430px;
+    height: 240px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #F5F1EA;
+    color: black;
+    animation: fromLeftforSecond 0.6s ease-in-out;
+}
+
+@keyframes fromLeftforSecond {
+    from {transform: translate(80px);}
+
+    to {transform: translate(0px);}
+}
+
+.therapy2:hover .main-here{
+    color: black;
+}
+
+.therapy3{
+    position: absolute;
+    bottom: -140px;
+    left: -220px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 430px;
+    height: 240px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #F5F1EA;
+    color: black;
+    animation: fromLeftforThird 0.5s ease-in-out;
+}
+
+@keyframes fromLeftforThird {
+    from {transform: translate(-80px);}
+
+    to {transform: translate(0px);}
+}
+
+.therapy3:hover .main-here{
+    color: black;
+}
+
+.therapy4{
+    position: absolute;
+    bottom: -140px;
+    right: -260px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 430px;
+    height: 240px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #F5F1EA;
+    color: black;
+    animation: fromLeftforFourth 0.7s ease-in-out;
+}
+
+@keyframes fromLeftforFourth {
+    from {transform: translate(100px);}
+
+    to {transform: translate(0px);}
+}
+
+.therapy4:hover .main-here{
+    color: black;
+}
+
+@media (max-width: 390px) {
+    .third-part{
+        margin-bottom: 200px;
+        width: 320px;
+    }
+
+    .first-kolo{
+        border: none;
+    }
+
+    .second-kolo{
+        border: none;
+    }
+
+    .third-kolo{
+        border: none;
+    }
+
+    .wrapper1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        margin-left: 2%;
+        margin-bottom: 40%;
+    }
+    .therapy{
+        display: flex;
+        align-items: flex-start;
+        position: static;
+        margin-bottom: 20px;
+        width: 320px;
+    }
+
+    .therapy2{
+        display: flex;
+        position: static;
+        margin-bottom: 20px;
+        width: 320px;
+    }
+
+    .therapy3{
+        display: flex;
+        position: static;
+        margin-bottom: 20px;
+        width: 320px;
+    }
+
+    .therapy4{
+        display: flex;
+        position: static;
+        margin-bottom: 20px;
+        width: 320px;
+    }
+
+    .hahahaha{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .under-inside-text{
+        margin-bottom: 30px;
+    }
+
+    .under-here{
+        text-align: start;
+    }
+
+    .mindoorQuadro{
+        margin-bottom: 50px;
+    }
+
+    .text-inside{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 340px;
+        font-size: 30px;
+        gap: 7px;
+    }
+
+    .under-inside-text{
+        width: 340px;
+        font-size: 16px;
+    }
+
+    .box-here{
+        margin-top: 200px;
+        width: 340px;
+    }
+}
