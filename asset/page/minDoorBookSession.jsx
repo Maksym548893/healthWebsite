@@ -1,9 +1,15 @@
-
+import BookSessionMenu from "../bookSessionComponents/minDoorBookSessionMenu"
 
 function MinDoorBookASession() {
 
     return(
-d
+        <>
+        <section className='hero'>
+            <BookSessionMenu />
+
+
+        </section>
+        </>
     )
 }
 

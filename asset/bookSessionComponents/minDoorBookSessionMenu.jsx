@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 import MinDoorContactCarts from '../images/cartik.svg'
 import MinDoorContactClosers from '../images/closer.svg'
 
-import 'minDoorBookSessionMenu.jsx'
+import './minDoorBookSessionMenu.css'
 import { useEffect, useRef, useState } from 'react'
 
 function BookSessionMenu() {
@@ -53,7 +53,7 @@ function BookSessionMenu() {
         menuOpen.current = setTimeout(() => {
             setIsDropDownOpen(false)
             menuOpen.current = null
-        }, 2000);
+        }, 1000);
     }
 
     const [isRevirse, setIsRevirse] = useState(false)
@@ -76,30 +76,30 @@ function BookSessionMenu() {
     const [isCartOpen, setIsCartOpen] = useState(false)
 
     return(
-        <div className="bookASession">
+        <header className="bookASession">
             <div className="leftSid">
-<div className="logik"><img src={MinDoorLogos} alt="MinDoorLogos" /></div>
+<div className="logik"><img className='logiks' src={MinDoorLogos} alt="MinDoorLogos" /></div>
 
             <nav>
                 <div className='menishka' onMouseEnter={MouseEntering} onMouseLeave={MouseLeaving}>
-                <Link onMouseEnter={ReverseArrowUp} onMouseLeave={ReverseArrowDown}>All Pages <img onMouseEnter={ReverseArrowUp} onMouseLeave={ReverseArrowDown} style={styliok} src={MinDoorDownArrows} alt="" /></Link>
+                <Link className='down-arrow' onMouseEnter={ReverseArrowUp} onMouseLeave={ReverseArrowDown}>All Pages <img onMouseEnter={ReverseArrowUp} onMouseLeave={ReverseArrowDown} style={styliok} src={MinDoorDownArrows} alt="" /></Link>
                 {isDropDownOpen && (
                     <div className='listHere'>
                     <ul className='listOne'>
                     {firstPages.map(firPage => 
-                        <Link to={firPage.link} key={firPage.id}>{firPage.name}</Link>
+                        <Link className='listEL' to={firPage.link} key={firPage.id}>{firPage.name}</Link>
                     )}
                     </ul>
 
                     <ul className='listTwo'>
                     {secondPages.map(secPage => 
-                        <Link to={secPage.link} key={secPage.id}>{secPage.name}</Link>
+                        <Link className='listEL' to={secPage.link} key={secPage.id}>{secPage.name}</Link>
                     )}
                     </ul>
 
                     <ul className='listThree'>
                     {thirdPages.map(thiPage => 
-                        <Link to={thiPage.link} key={thiPage.id}>{thiPage.name}</Link>
+                        <Link className='listEL' to={thiPage.link} key={thiPage.id}>{thiPage.name}</Link>
                     )}
                     </ul>
 
@@ -118,7 +118,8 @@ function BookSessionMenu() {
 
 
             <div className="rightSid">
-                <Link className='cartuks' onClick={() => setIsCartOpen(true)}><img src={MinDoorContactCarts} alt="" /></Link>
+                <Link className='cartuks' onClick={() => setIsCartOpen(true)}><img className='hart' src={MinDoorContactCarts} alt="" /></Link>
+                <div className='greenPunkts'></div>
                 {isCartOpen && (
                     <div className="overlays" onClick={() => setIsCartOpen(false)}>
                         <div className="wrappers" onClick={(e) => e.stopPropagation()}>
@@ -126,7 +127,7 @@ function BookSessionMenu() {
                             <div className="cartek" key={cor.id}>
                                 <div className="erst">
                                     <p className='your-cart'>{cor.firstPhrase}</p>
-                                    <img src={MinDoorContactClosers} alt="" />
+                                    <img className='closers' onClick={() => setIsCartOpen(false)} src={MinDoorContactClosers} alt="" />
                                 </div>
 
                                 <div className="hr">
@@ -142,16 +143,19 @@ function BookSessionMenu() {
                     </div>
                 )}
 
+
+
                 {sides.map(side =>   
                 <div className="rig" key={side.id}>
                 <Link className='book-A-session' to={side.link}>{side.book}</Link>
 
-                <Link className='phoneBtn'>{side.img} {side.tel}</Link>
+                <Link className='phoneBtn'><img className='photoImg' src={side.img} alt="" /> {side.tel}</Link>
                 </div>
                 )}
 
             </div>
-        </div>
+        </header>
     )
 }
 
+export default BookSessionMenu

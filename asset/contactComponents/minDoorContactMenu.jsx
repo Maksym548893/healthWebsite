@@ -8,7 +8,6 @@ import MinDoorDownArrow from '../images/queArrow.svg'
 import { Link } from "react-router-dom"
 import MinDoorContactCart from '../images/cartik.svg'
 import MinDoorContactCloser from '../images/closer.svg'
-
 function ContactMenu() {
     const [isHamburgerOpen, setIsHamburgerOpen] = useState(false)
 
