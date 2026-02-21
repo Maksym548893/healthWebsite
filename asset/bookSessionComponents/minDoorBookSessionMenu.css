@@ -102,8 +102,7 @@ nav{
     width: 13px;
     border-radius: 50%; 
     background-color: rgb(163, 163, 110);
-    top: 25px;
-    transform: translateX(19 px);
+    transform: translateY(-9px)translateX(18px);
 }
 
 .overlays{

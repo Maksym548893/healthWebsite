@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --orange--: rgb(255, 123, 0);
+    --green--: rgb(163, 163, 110);
+    --grey--: rgb(117, 117, 117);
+    --forButton--: rgb(224, 217, 206);
+    --brown--: rgb(141, 105, 89);
+    --bezhevuy--: rgb(248, 243, 236);
+    --black--: rgb(0, 0, 0);
+}
+
+.careAnytime{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--black--);
+    margin-bottom: 80px;
+}
+
+.care_text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    font-family: Noto Serif;
+    font-weight: 400;
+}
+
+.anytime{
+    display: flex;
+    color: var(--orange--);
+}
+
+.mi{
+    display: flex;
+    text-align: center;
+    width: 530px;
+    color: var(--grey--);
+    font-weight: 500;
+}

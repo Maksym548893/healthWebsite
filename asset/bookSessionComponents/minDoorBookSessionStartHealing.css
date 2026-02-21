@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --orange--: rgb(255, 123, 0);
+    --green--: rgb(163, 163, 110);
+    --grey--: rgb(117, 117, 117);
+    --forButton--: rgb(224, 217, 206);
+    --brownlite--: rgb(141, 105, 89, 0.8 );
+    --darkbrown--: rgb(59, 53, 51);
+    --bezhevuy--: rgb(248, 243, 236);
+    --black--: rgb(0, 0, 0);
+}
+
+.Start_Healing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(141, 105, 89);
+    height: 550px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.circlesOne{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.circlesTwo{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    width: 850px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.circlesThree{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.insider{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textovuk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.mainer_Text{
+    display: flex;
+    font-family: Noto Serif;
+    font-weight: 400;
+    gap: 10px;
+}
+
+.minorer_Text{
+    display: flex;
+    max-width: 480px;
+    font-family: Noto Serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.linker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link_inside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+    background-color: white;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: 0.6s ease-in-out;
+}
+
+.link_inside:hover{
+    color: black;
+    background-color: rgba(235, 231, 228, 0.9);
+}
+
+.ariws{
+    height: 18px;
+}
+
+.MinDoorFirstPeop, .MinDoorSecondPeop, .MinDoorThirdPeop, .MinDoorFourthPeop{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.MinDoorFirstPeop{
+    animation: roller 22s linear infinite;
+}
+
+.MinDoorSecondPeop{
+    animation: roller 22s linear 5.5s infinite;
+}
+
+.MinDoorThirdPeop{
+    animation: roller 22s linear 11s infinite;
+}
+
+.MinDoorFourthPeop{
+    animation: roller 22s linear 16.5s infinite;
+}
+
+@keyframes roller {
+    0%{
+        transform: rotate(0deg)translateX(500px)rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)translateX(500px)rotate(-360deg);
+    }
+}
+
+.MinDoorFifthPeop, .MinDoorSixthPeop, .MinDoorSeventhPeop, .MinDoorEighthPeop{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.MinDoorFifthPeop{
+    animation: roller2 21s linear infinite;
+}
+
+.MinDoorSixthPeop{
+    animation: roller2 21s linear 5.25s infinite;
+}
+
+.MinDoorSeventhPeop{
+    animation: roller2 21s linear 10.50s infinite;
+}
+
+.MinDoorEighthPeop{
+    animation: roller2 21s linear 15.75s infinite;
+}
+
+@keyframes roller2 {
+    0%{
+        transform: rotate(0deg)translateX(425px)rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg)translateX(425px)rotate(360deg);
+    }
+}
+
+.MinDoorNinethPeop, .MinDoorTenthPeop, .MinDoorEleventhPeop, .MinDoorTwelvethPeop{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.MinDoorNinethPeop{
+    animation: roller3 20s linear infinite;
+}
+
+.MinDoorTenthPeop{
+    animation: roller3 20s linear 5s infinite;
+}
+
+.MinDoorEleventhPeop{
+    animation: roller3 20s linear 10s infinite;
+}
+
+.MinDoorTwelvethPeop{
+    animation: roller3 20s linear 15s infinite;
+}
+
+@keyframes roller3 {
+    0%{
+        transform: rotate(0deg)translateX(345px)rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)translateX(345px)rotate(-360deg);
+    }
+}

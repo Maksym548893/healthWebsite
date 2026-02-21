@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --orange--: rgb(255, 123, 0);
+    --green--: rgb(163, 163, 110);
+    --grey--: rgb(117, 117, 117);
+    --forButton--: rgb(224, 217, 206);
+    --brown--: rgb(141, 105, 89);
+    --bezhevuy--: rgb(248, 243, 236);
+    --black--: rgb(0, 0, 0);
+}
+
+.nextChapter{
+    display: flex;
+    color: var(--black--);
+    gap: 20px;
+    margin-bottom: 150px;
+}
+
+.left_Part{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 20px;
+}
+
+.mainTexts{
+    font-family: Noto Serif;
+    display: flex; 
+    flex-direction: column;
+    width: 350px;
+}
+
+.mains_text{
+    font-weight: 400;
+}
+
+.minors_text{
+    font-weight: 400;
+    color: var(--orange--);
+}
+
+.under_text{
+    max-width: 300px;
+    color: var(--grey--);
+    font-size: 16px;
+}
+
+.right_Part{
+    display: flex;
+    flex-direction: column;
+}
+
+.allRight_Part{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.fotku_my{
+    display: flex;
+    width: 390px;
+    min-height: 100%;
+    border-radius: 20px;
+}
+
+.back{
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text_and_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--bezhevuy--);
+    height: 100%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.main_text_not_main{
+    display: flex;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bitton{
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.name_commentars{
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.field_of_activity{
+    display: flex;
+    font-weight: 500;
+    color: var(--grey--);
+}
+
+.buttonsFor{
+    display: flex;
+    gap: 10px;
+}
+
+.button_prev, .button_next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid var(--forButton--);
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev, .next{
+    height: 25px;
+    width: 25px;
+}

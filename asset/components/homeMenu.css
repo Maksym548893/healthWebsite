@@ -66,8 +66,7 @@ nav{
     width: 13px;
     position: absolute;
     z-index: 1000;
-    top: 32px;
-    right: 28.7%;
+    transform: translateY(-3px)translateX(17px);
     border-radius: 50%;
     cursor: pointer;
 }
