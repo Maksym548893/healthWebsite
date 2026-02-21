@@ -4,6 +4,7 @@ header{
     display: flex;
     height: 80px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logiks{
@@ -102,7 +103,7 @@ nav{
     border-radius: 50%; 
     background-color: rgb(163, 163, 110);
     top: 25px;
-    transform: translateX(19px);
+    transform: translateX(19 px);
 }
 
 .overlays{
@@ -169,4 +170,8 @@ nav{
 
 .listEL:hover{
     color: rgb(255, 123, 0);
+}
+
+.bookASession{
+        background-color: rgb(255, 253, 252);
 }
