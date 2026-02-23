@@ -1,0 +1,29 @@
+.sliderTV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sliderPg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 800px;
+    border: 2px solid red;
+}
+
+.prevBtnsss{
+    color: black;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.nextBtnsss{
+    color: black;
+    width: 60px;
+    height: 60px;
+}
