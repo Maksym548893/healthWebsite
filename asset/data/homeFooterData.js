@@ -1,9 +1,7 @@
 export const firstUp = [{
     id: 1,
-    main: [
-        'Mindoor provides care & professional mental',
-        'health support for your journey.'
-    ],
+    main: 
+        'Mindoor provides care & professional mental health support for your journey.',
     our: 'Our Social Links'
     }]
 

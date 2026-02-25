@@ -4,6 +4,7 @@ import MinDoorLogo from '../images/myphoto.svg'
 import { firstUp, secondUp, thirdUp, fourthUp, fifthUp } from '../data/homeFooterData'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { fi } from '@faker-js/faker'
 
 
 function HomeFooter() {
@@ -40,9 +41,7 @@ return(
         {first.map(fir => (
         <div className="firstUp">
             <div className='main' key={fir.id}>
-                {fir.main.map((line, i) => (
-                    <p className='mensch' key={i}>{line}</p>
-                ))}
+                    <p className='mensch' >{fir.main}</p>
             </div>
 
             <div className="our" key={fir.id}>

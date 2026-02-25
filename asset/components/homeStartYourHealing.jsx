@@ -79,9 +79,7 @@ function HomeStartYourHealing() {
                             <h1 className="healing"><i>{main.mainTxt1}</i></h1>
                             </div>
                             <div className="gav">
-                            {main.secMainTxt.map((line, i) => (
-                                <p className='fass' key={i}>{line}</p>
-                            ))}
+                                <p className='fass'>{main.secMainTxt}</p>
                             </div>
                         </div>
                     ))}

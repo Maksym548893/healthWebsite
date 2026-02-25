@@ -65,6 +65,7 @@
 
 .comt{
     display: flex;
+    text-align: start;
     font-size: 1.26em;
     font-weight: 500;
     animation: fromInvisible 1.8s ease;
@@ -175,7 +176,7 @@
     }
 
     .comentarik{
-        width: 320px;
+        width: 340px;
     }
 
     .comt{
@@ -184,8 +185,12 @@
         font-size: 18px;
     }
 
+    .backend{
+        width: 340px;
+    }
+
     .FotossotoF{
-        width: 320px;
+        width: 340px;
     }
 
     .aika{

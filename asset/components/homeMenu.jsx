@@ -90,9 +90,11 @@ function HomeMenu() {
             </div>
         )}
         </div>
+        <div className='insideks'>
         <Link className='menuEl' to={'/about'}>About</Link>
         <Link className='menuEl' to={'/service'}>Service</Link>
         <Link className='menuEl' to={'/contact'}>Contact</Link>
+        </div>
     </nav>
 
     </div>

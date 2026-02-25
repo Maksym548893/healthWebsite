@@ -40,11 +40,10 @@ function HomeMain() {
         <div className="x">
             <div className="klak">
             <h1 className="main-text">You’re Not Alone</h1>
-            <h1 className="main-text"> <i className="talanten">Healing </i>Starts Here</h1>
+            <h1 className="main-text1"> <i className="talanten">Healing </i>Starts Here</h1>
             </div>
             <div className="obloga">
-            <p className="under-text">Mindoor provides care & professional mental</p>
-            <p className="under-text">health support for your journey.</p>
+            <p className="under-text">Mindoor provides care & professional mental health support for your journey.</p>
             </div>
             <Link className="bookSessionBtn" onMouseEnter={HandleMakeReverseEnter} onMouseLeave={HandleMakeReverseLeave}>Book A Session <svg className="bookSessionArrow" onMouseEnter={HandleMakeReverseEnter} onMouseLeave={HandleMakeReverseLeave} style={style} xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg></Link>
         </div>
@@ -67,9 +66,7 @@ function HomeMain() {
             </div>
             </div>      
             <div>
-            {block.last_text.map((text, i) => (
-                <p className="last-text" key={i}>{text}</p>
-            ))}
+                <p className="last-text">{block.last_text}</p>
             </div>
             </div>
            ))}

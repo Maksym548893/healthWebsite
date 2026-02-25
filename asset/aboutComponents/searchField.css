@@ -1,0 +1,14 @@
+.searchField{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+    color: black;
+    height: 2000px;
+    flex-direction: column;
+}
+
+.alaks{
+    display: flex;
+    color: black;
+}

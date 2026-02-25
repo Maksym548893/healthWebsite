@@ -53,6 +53,15 @@
 
 .main-text{
     display: flex;
+    text-align: start;
+    font-family: Noto Serif;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 400;
+}
+
+.main-text1{
+    display: flex;
     align-items: flex-start;
     font-family: Noto Serif;
     margin-bottom: 20px;
@@ -68,8 +77,8 @@
 
 .under-text{
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    text-align: start;
+    width: 330px;
     color:rgb(109, 86, 68);
     font-weight: 500;
 }
@@ -142,8 +151,7 @@
 
 .last-text{
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    text-align: start;
     color: rgb(141, 105, 89);
     font-size: 13px;
     font-weight: 600;
@@ -157,8 +165,11 @@
 
 @media (max-width: 390px) {
     .first-main-block{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
         height: 820px;
-        padding: 0px 10px;
+        padding: 0px 20px;
         margin-bottom: 60px;
         width: 340px;
     }
@@ -171,8 +182,13 @@
     }
 
     .main-text{
-        font-size: 2.2em;
+        font-size: 2.1em;
         margin-bottom: 0px;
+    }
+
+    .main-text1{
+        display: flex;
+        font-size: 2.1em;
     }
 
     .klak{
@@ -196,11 +212,26 @@
     }
 
     .commentsFromPeople{
-        width: 340px;
+        width: 320px;
+        display: flex;
+        align-items: flex-start;
+        transform: translateX(-10px);
     }
 
     .last-text{
-        align-items: flex-start;
+        text-align: start;
         font-size: 0.8em;
+        width: 270px;
     }
+
+    .under-text{
+        display: flex;
+        text-align: start;
+        font-size: 14px;
+    }
+
+    .insideks{
+        display: none;
+    }
+    
 }

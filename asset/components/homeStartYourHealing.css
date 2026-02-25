@@ -301,3 +301,47 @@
             transform: rotate(360deg)translate(450px)rotate(-360deg);
         }
     }
+
+    @media (max-width: 390px) {
+        .startHere{
+            width: 340px;
+            height: 300px;
+            overflow: auto;
+            display: flex;
+            padding: 20px 20px;
+            margin-bottom: 40px;
+        }
+
+        .circleOne, .circleTwo, .circleThree{
+            border: none;
+            width: 0px;
+            height: 0px;
+            padding: 20px;
+        }
+
+        .ninethPers, .eighthPers, .seventhPers, .sixthPers, .fifthPers, .fourthPers, .thirdPers, .secondPers, .firstPers, .tenthPers, .eleventhPers, .twelvethPers{
+            display: none;
+        }
+
+        .blocksMain{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mainA{
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+        }
+
+        .healing{
+            font-size: 28px;
+
+        }
+
+        .fass{
+            font-size: 16px;
+            width: 260px;
+        }
+    }

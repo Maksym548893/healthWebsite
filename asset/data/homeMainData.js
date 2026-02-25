@@ -19,9 +19,6 @@ export const comentts = [
             MinDoorStar
         ],
 
-        last_text: [
-            'Over 300 individuals who have confidently',
-            'trusted Serenity Minds for their overall well-being.'
-        ]
+        last_text: 'Over 300 individuals who have confidently trusted Serenity Minds for their overall well-being.'
     }
 ]

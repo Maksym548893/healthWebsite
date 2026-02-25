@@ -135,6 +135,47 @@
 
 @media (max-width: 390px) {
     .partTwo{
+        display: flex;
+        gap: 60px;
+        text-align: start;
+    }
+
+    .firstChapter{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .mensch{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+        width: 400px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .thirdUp{
+        display: flex;
         flex-wrap: wrap;
+    }
+
+    .secondChapter{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .harush{
+        width: 350px;
+    }
+
+    .copy{
+        font-size: 16px;
+        font-weight: 400;
+        width: 400px;
     }
 }

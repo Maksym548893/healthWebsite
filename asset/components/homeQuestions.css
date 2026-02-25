@@ -180,7 +180,8 @@ hr{
 
 @media (max-width: 390px) {
     .HomeQuestions{
-        width: 320px;
+        width: 340px;
+        margin-bottom: 50px;
     }
 
     .mainQue{
@@ -193,7 +194,7 @@ hr{
         font-size: 14px;
         text-align: center;
         justify-content: center;
-        width: 320px;
+        width: 340px;
         color: rgb(112, 112, 112);
     }
 
@@ -203,24 +204,24 @@ hr{
     }
 
     .imgQu{
-        width: 320px;
+        width: 340px;
     }
 
     .claassss{
-        width: 320px;
+        width: 340px;
+        text-align: start;
     }
 
     hr{
-        width: 320px;
+        width: 340px;
     }
 
     .hr{
-        width: 320px;
+        width: 340px;
     }
 
     .part{
-        width: 320px;
-        justify-content: center;
+        width: 340px;
         gap: 80px;
     }
 }

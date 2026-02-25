@@ -1,5 +1,7 @@
 import { useMemo, useState } from "react"
 
+import './searchField.css'
+
 function SearchField() { 
 
     const [products, setProducts] = useState([
@@ -58,9 +60,8 @@ function SearchField() {
   const [searchField, setSearchField] = useState('')
 
   const filterByName = useMemo(() => {
-    return products.filter(product => {
+    return products.filter(product =>
       product.name.toLowerCase().includes(searchField.toLowerCase())
-    }
     )
   }, [products, searchField])
 
@@ -70,7 +71,7 @@ function SearchField() {
 
       <ul>
       {filterByName.length === 0 && searchField === '' ? (<li>Not Found</li>) : (filterByName.map(pruduct => 
-        <li style={{color: 'green'}} key={pruduct.id}>{pruduct.name} - price: {pruduct.price}$</li>
+        <li className="alaks" style={{color: 'green'}} key={pruduct.id}>{pruduct.name} - price: {pruduct.price}$</li>
       ))
       }
       </ul>

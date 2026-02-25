@@ -28,6 +28,11 @@ nav{
     gap: 30px;
 }
 
+.insideks{
+    display: flex;
+    gap: 30px;
+}
+
 .menuEl{
     display: flex;
     align-items: center;
@@ -239,17 +244,41 @@ nav{
 }
 
 
+
 @media (max-width: 390px) {
     header{
         margin-bottom: 0;
+        width: 340px;
+        display: flex;
+    }
+
+    nav{
+        display: none;
+        width: 100%;
     }
     
-    nav{
+    .wrapperikOnMenu{
         display: none;
     }
 
     .MindoorLogo{
         height: 35px;
+    }
+
+    .overlay{
+        position: fixed;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 375px;
+        height: 100vh;
+        background-color: transparent;
+    }
+    
+    .cart-modal{
+        position: fixed;
+        width: 375px;
+        height: 150vh;
     }
 
     .haha{
@@ -282,10 +311,9 @@ nav{
         z-index: 1000;
         text-align: start;
         padding: 10px;
-        width: 350px;
+        width: 340px;
         display: flex;
-        top: 50px;
-        right: 5px;
+        transform: translateX(-260px)translateY(20px);
         background-color: white;
         border-radius: 12px;
         box-shadow: 0 0 15px rgb(0, 0, 0, 0.2);
@@ -316,5 +344,9 @@ nav{
 
     .downArrow1{
         fill: rgb(255, 123, 0);
+    }
+
+    .greenCircle{
+        transform: translateX(-10px);
     }
 }
