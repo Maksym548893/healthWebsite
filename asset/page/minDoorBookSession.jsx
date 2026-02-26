@@ -6,6 +6,8 @@ import ThreeBlock from "../bookSessionComponents/MinDoorBookSessionThreeBlock"
 import StartHealing from "../bookSessionComponents/minDoorBookSessionStartHealing"
 import BookSessionFooter from "../bookSessionComponents/minDoorBookSessionFooter"
 
+import './minDoorBookSession.css'
+
 function MinDoorBookASession() {
 
     return(
