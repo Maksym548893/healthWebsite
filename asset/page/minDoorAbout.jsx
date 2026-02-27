@@ -4,6 +4,7 @@ import ValidationForm from '../aboutComponents/validationForm'
 import AdvancedSearchField from '../aboutComponents/advancedSearchField'
 import SearchingFiltering from '../aboutComponents/advancedSearchingFiltering'
 import AdvancedTodoList from '../aboutComponents/advancedTodoList'
+import AdvancedCarousel from '../aboutComponents/advancedCarousel'
 import './minDoorAbout.css'
 <script src="menu.js" defer></script>
 
@@ -22,6 +23,8 @@ function MinDoorAbout() {
         <SearchingFiltering />
 
         <AdvancedTodoList />
+
+        <AdvancedCarousel />
         </>
     )
 }
